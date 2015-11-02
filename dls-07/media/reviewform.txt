@@ -1,0 +1,64 @@
+# This is the offline review form for submissions to DLS 2007
+#
+# Authors will receive responses to questions 4 and 5 only;
+# responses to questions 1-3 and 6 will NOT be sent to the authors.
+#
+# Fill in question 6 only if you solicited a review from someone
+# who is not a member of the program committee. 
+#   
+PAPER-TITLE:
+
+PAPER-NUMBER:
+
+PAPER-AUTHORS:
+
+#
+REVIEWER-NAME:
+
+REVIEWER-NUMBER:
+
+#
+# 1 - How do you classify this paper? (NOT sent to the authors)
+# A: I will champion this paper
+#    (advocate/accept).
+# B: I can accept this paper, but I will not champion it
+#    (accept, but could reject).
+# C: This paper should be rejected, though I will not fight
+#    strongly against it (reject, but could accept).
+# D: Serious problems. I will argue to reject this paper
+#    (detractor).
+# (Fill in after the keyword: A, B, C or D)
+CLASSIFICATION:
+
+#
+# 2 - What is your overall expertise concerning the subject areas
+#     of this paper? (NOT sent to the authors)
+# X: I am an expert;
+# Y: I am knowledgeable in the area, though not an expert;
+# Z: I am not an expert. My evaluation is that of an informed outsider.
+# (Fill in after the keyword: X, Y or Z)
+REVIEWER-EXPERTISE:
+
+#
+# 3 - Comments for the program committee (NOT sent to the authors)
+# (Type after and/or below the keyword)
+COMMITTEE-COMMENTS:
+
+#
+# 4 - Summary of the paper (sent to the authors)
+# (Type after and/or below the keyword)
+SUMMARY:
+
+#
+# 5 - Evaluation of the paper, including points in favour
+#     and against, and comments for improvement (sent to the authors)
+# (Type after and/or below the keyword)
+EVALUATION:
+
+#
+# 6 - Name of the co-reviewer for this paper (included in the
+#     proceedings, one per line, no affiliation)
+# (Type after and/or below the keyword, leave blank if not applicable)
+CO-REVIEWERS:
+
+#
