@@ -8,8 +8,14 @@ require_relative 'generate_navigation'
 fullmenu = [
   ["index.html",            "DLS", nil  ,"home"],
 
-  ["dls-16/index.html",     "DLS-16",
+  ["dls-17/index.html",     "DLS-17",
     ],
+
+  ["dls-16/index.html",     "DLS-16", [
+    ["dls-16/invited/index.html",  "Invited talks"],
+    ["dls-16/program/index.html",  "Program"],
+    ["dls-16/cfp/index.html",      "Call for papers"],
+    ]],
 
   ["dls-15/index.html",     "DLS-15", [
     ["dls-15/invited/index.html",  "Invited talks"],
@@ -104,7 +110,7 @@ end
 def generate_footer(root)
   return  "<!-- -=-=-=-=-=-=-=-=-=-= FOOTER -=-=-=-=-=-=-=-=-=-= -->
   <div class=\"copyright\">
-  <p> &copy; 2006-2015 <a class=\"plain\" href=\"http://www.hpi.uni-potsdam.de/swa\" rel=\"external\">HPI Software Architecture Group</a> <a class=\"plain\" href=\"http://validator.w3.org/check/referer\" rel=\"external\">&nbsp;&nbsp;&nbsp;&nbsp;</a> </p>
+  <p> &copy; 2006-2017 <a class=\"plain\" href=\"http://www.hpi.uni-potsdam.de/swa\" rel=\"external\">HPI Software Architecture Group</a> <a class=\"plain\" href=\"http://validator.w3.org/check/referer\" rel=\"external\">&nbsp;&nbsp;&nbsp;&nbsp;</a> </p>
   </div>"
 end
 

@@ -4,7 +4,7 @@
 
 def generate_logo1(root)
   return "  <div class=\"logo1\"><a class=\"plain\" href=\"http://www.hpi-web.de\" rel=\"external\">
-    <img src=\"#{root}media/hpi_logo_wb_rhi.png\" alt=\"Hasso-Plattner-Institut\" />
+    <img src=\"#{root}media/hpi_logo_wb_rhi.png\" alt=\"Hasso Plattner Institute\" />
   </a></div>\n"  
 end
 
