@@ -72,9 +72,26 @@
       (Google, United Kingdom)
     </span></p>
 
-<p> V8 is a mature, high-performance JavaScript engine used by Chrome, node.js and a number of other projects. V8’s original raison d’etre was to make JavaScript fast. It therefore eschewed the typical dynamic language virtual machine approach of having an interpreter as its first-level execution target, and instead JIT compiled baseline machine code directly. While this approach has served V8 well, it has led to architectural complexity and can incur increased memory and runtime overheads for run-once code. As such, we recently embarked on a project to build a new high-performance interpreter, Ignition, for V8. </p>
+<p> V8 is a mature, high-performance JavaScript engine used by Chrome,
+node.js and a number of other projects. V8’s original raison d’etre
+was to make JavaScript fast. It therefore eschewed the typical dynamic
+language virtual machine approach of having an interpreter as its
+first-level execution target, and instead JIT compiled baseline
+machine code directly. While this approach has served V8 well, it has
+led to architectural complexity and can incur increased memory and
+runtime overheads for run-once code. As such, we recently embarked on
+a project to build a new high-performance interpreter, Ignition, for
+V8. </p>
 
-<p> Building an interpreter for a mature virtual machine such as V8 presents a number of challenges as well as some opportunities. In this talk I will describe some of the key design decisions of Ignition, such as its register based design and the mechanism used to build the bytecode handlers with V8’s TurboFan optimizing compiler. I will also describe how we adapted V8s dynamic type feedback system, which is critical to achieving good performance on a dynamic language such as JavaScript. Finally I will outline how Ignition integrates into V8’s compilation pipeline and plans for the future. </p>
+<p> Building an interpreter for a mature virtual machine such as V8
+presents a number of challenges as well as some opportunities. In this
+talk I will describe some of the key design decisions of Ignition,
+such as its register based design and the mechanism used to build the
+bytecode handlers with V8’s TurboFan optimizing compiler. I will also
+describe how we adapted V8s dynamic type feedback system, which is
+critical to achieving good performance on a dynamic language such as
+JavaScript. Finally I will outline how Ignition integrates into V8’s
+compilation pipeline and plans for the future. </p>
 
 <!-- -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
 
