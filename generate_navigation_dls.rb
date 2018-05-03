@@ -90,7 +90,7 @@ fullmenu = [
 ]
 
 def generate_logo1(root)
-  return "  <div class=\"logo1\"><a class=\"plain\" href=\"http://www.dynamic-languages-symposium.org/\" rel=\"external\">
+  return "  <div class=\"logo1\"><a class=\"plain\" href=\"https://www.dynamic-languages-symposium.org/\" rel=\"external\">
     <img src=\"#{root}/media/dls_logo.png\" alt=\"Dynamic Languages Symposium\" />
   </a></div>\n"  
 end
