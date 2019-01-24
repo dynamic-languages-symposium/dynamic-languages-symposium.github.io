@@ -8,20 +8,20 @@ require_relative 'generate_navigation'
 fullmenu = [
   ["index.html",            "DLS", nil  ,"home"],
 
-  ["dls-19/index.html",     "DLS-19",
+  ["dls-19/index.html",     "DLS-19", [
     ["dls-19/program/index.html",  "Program"],
     ["dls-19/cfp/index.html",  "Call for papers"],
-    ],
+    ]],
 
-  ["dls-18/index.html",     "DLS-18",
+  ["dls-18/index.html",     "DLS-18", [
     ["dls-18/program/index.html",  "Program"],
     ["dls-18/cfp/index.html",  "Call for papers"],
-    ],
+    ]],
 
-  ["dls-17/index.html",     "DLS-17",
+  ["dls-17/index.html",     "DLS-17", [
     ["dls-17/program/index.html",  "Program"],
     ["dls-17/cfp/index.html",  "Call for papers"],
-    ],
+    ]],
 
   ["dls-16/index.html",     "DLS-16", [
     ["dls-16/invited/index.html",  "Invited talks"],
