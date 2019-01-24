@@ -92,7 +92,7 @@ fullmenu = [
 def generate_logo1(root)
   return "  <div class=\"logo1\"><a class=\"plain\" href=\"http://www.dynamic-languages-symposium.org/\" rel=\"external\">
     <img src=\"#{root}/media/dls_logo.png\" alt=\"Dynamic Languages Symposium\" />
-  </a></div>\n"  
+  </a></div>\n"
 end
 
 def generate_logo2(root)
@@ -113,11 +113,8 @@ end
 def generate_footer(root)
   return  "<!-- -=-=-=-=-=-=-=-=-=-= FOOTER -=-=-=-=-=-=-=-=-=-= -->
   <div class=\"copyright\">
-  <p> &copy; 2006-2017 <a class=\"plain\" href=\"http://www.hpi.uni-potsdam.de/swa\" rel=\"external\">HPI Software Architecture Group</a> <a class=\"plain\" href=\"http://validator.w3.org/check/referer\" rel=\"external\">&nbsp;&nbsp;&nbsp;&nbsp;</a> </p>
+  <p> &copy; 2006-2019 <a class=\"plain\" href=\"http://www.hpi.uni-potsdam.de/swa\" rel=\"external\">HPI Software Architecture Group</a> <a class=\"plain\" href=\"http://validator.w3.org/check/referer\" rel=\"external\">&nbsp;&nbsp;&nbsp;&nbsp;</a> </p>
   </div>"
 end
 
 update_navigation_menu(fullmenu, fullmenu)
-
-
-
