@@ -137,7 +137,7 @@ end
 def generate_footer(root)
   return  "<!-- -=-=-=-=-=-=-=-=-=-= FOOTER -=-=-=-=-=-=-=-=-=-= -->
   <div class=\"copyright\">
-  <p> &copy; 2006-2021 <a class=\"plain\" href=\"http://www.hpi.uni-potsdam.de/swa\" rel=\"external\">HPI Software Architecture Group</a> <a class=\"plain\" href=\"http://validator.w3.org/check/referer\" rel=\"external\">&nbsp;&nbsp;&nbsp;&nbsp;</a> </p>
+  <p> &copy; 2006-2023 <a class=\"plain\" href=\"http://www.hpi.uni-potsdam.de/swa\" rel=\"external\">HPI Software Architecture Group</a> <a class=\"plain\" href=\"http://validator.w3.org/check/referer\" rel=\"external\">&nbsp;&nbsp;&nbsp;&nbsp;</a> </p>
   </div>"
 end
 
