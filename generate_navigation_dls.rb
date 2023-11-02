@@ -8,6 +8,11 @@ require_relative 'generate_navigation'
 fullmenu = [
   ["index.html",            "DLS", nil  ,"home"],
 
+  ["dls-23/index.html",     "DLS-23", [
+    ["dls-23/program/index.html",  "Program"],
+    ["dls-23/cfp/index.html",  "Call for papers"],
+    ]],
+
   ["dls-22/index.html",     "DLS-22", [
     ["dls-22/program/index.html",  "Program"],
     ["dls-22/cfp/index.html",  "Call for papers"],
@@ -115,7 +120,7 @@ fullmenu = [
 
 def generate_logo1(root)
   return "  <div class=\"logo1\"><a class=\"plain\" href=\"http://www.dynamic-languages-symposium.org/\" rel=\"external\">
-    <img src=\"#{root}/media/dls_logo.png\" alt=\"Dynamic Languages Symposium\" />
+    <img src=\"#{root}media/dls_logo.png\" alt=\"Dynamic Languages Symposium\" />
   </a></div>\n"
 end
 
