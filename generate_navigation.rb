@@ -21,7 +21,7 @@ end
 def generate_footer(root)
   return  "<!-- -=-=-=-=-=-=-=-=-=-= FOOTER -=-=-=-=-=-=-=-=-=-= -->
   <div class=\"copyright\">
-  <p> &copy; 2006-2013 HPI Software Architecture Group <a class=\"plain\" href=\"http://validator.w3.org/check/referer\" rel=\"external\">&nbsp;&nbsp;&nbsp;&nbsp;</a> </p>
+  <p> &copy; 2006-2024 HPI Software Architecture Group <a class=\"plain\" href=\"http://validator.w3.org/check/referer\" rel=\"external\">&nbsp;&nbsp;&nbsp;&nbsp;</a> </p>
   </div>"
 end
 
